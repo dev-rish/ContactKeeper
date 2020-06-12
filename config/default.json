@@ -1,0 +1,4 @@
+{
+  "mongoURI": "mongodb://localhost:27017/contact-keeper?readPreference=primary&appname=MongoDB%20Compass&ssl=false",
+  "jwtSecret": "as88@'43535435"
+}
