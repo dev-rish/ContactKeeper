@@ -16,10 +16,6 @@ app.use("/api/users", usersRoute);
 app.use("/api/contacts", contactsRoute);
 app.use("/api/auth", authRoute);
 
-app.get("/", (req, res) => {
-  res.json({ message: "Welcome to Contact Keeper API" });
-});
-
 // Serve static assets in production
 if (process.env.NODE_ENV === "production") {
   // Set static folder path
